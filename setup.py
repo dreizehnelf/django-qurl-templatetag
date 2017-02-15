@@ -29,6 +29,7 @@ setup(
     url='https://github.com/sophilabs/django-qurl-templatetag',
     packages=[
         'qurl_templatetag',
+        'qurl_templatetag.templatetags'
     ],
     package_dir={
         'qurl_templatetag': 'qurl_templatetag'
